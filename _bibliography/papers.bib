@@ -3,113 +3,107 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{cattaneo2025modifiedlossmomentum,
+  title={Modified Loss of Momentum Gradient Descent: Fine-Grained Analysis},
+  author={Cattaneo, Matias D. and Shigida, Boris},
+  journal={arXiv preprint arxiv:2509.08483},
+  year={2025},
+  Selected={true},
+  abbr={arxiv},
+  abstract = {We analyze gradient descent with heavy-ball momentum (HB) whose fixed momentum parameter $\beta \in (0, 1)$ provides exponential decay of memory. Building on Kovachki and Stuart (2021), we prove that on an exponentially attractive invariant manifold the algorithm is exactly plain gradient descent with a modified loss, provided that the step size $h$ is small enough. Although the modified loss does not admit a closed-form expression, we describe it with arbitrary precision and prove global (finite ``time'' horizon) approximation bounds $O(h^{R})$ for any finite order $R \geq 2$. We then conduct a fine-grained analysis of the combinatorics underlying the memoryless approximations of HB, in particular, finding a rich family of polynomials in $\beta$ hidden inside which contains Eulerian and Narayana polynomials. We derive continuous modified equations of arbitrary approximation order (with rigorous bounds) and the principal flow that approximates the HB dynamics, generalizing Rosca et al. (2023). Approximation theorems cover both full-batch and mini-batch HB. Our theoretical results shed new light on the main features of gradient descent with heavy-ball momentum, and outline a road-map for similar analysis of other optimization algorithms.},
+  pdf={2509.08483v1.pdf},
+  url={https://arxiv.org/abs/2509.08483},
+  html={https://arxiv.org/abs/2509.08483},
+  bibtex_show={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{
+cattaneo2025howmemory,
+title={How Memory in Optimization Algorithms Implicitly Modifies the Loss},
+author={Cattaneo, Matias D. and Shigida, Boris},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+Selected={true},
+abbr={neurips},
+abstract = {In modern optimization methods used in deep learning, each update depends on the history of previous iterations, often referred to as <i>memory</i>, and this dependence decays fast as the iterates go further into the past. For example, gradient descent with momentum has exponentially decaying memory through exponentially averaged past gradients. We introduce a general technique for identifying a memoryless algorithm that approximates an optimization algorithm with memory. It is obtained by replacing all past iterates in the update by the current one, and then adding a correction term arising from memory (also a function of the current iterate). This correction term can be interpreted as a perturbation of the loss, and the nature of this perturbation can inform how memory implicitly (anti-)regularizes the optimization dynamics. As an application of our theory, we find that Lion does not have the kind of implicit anti-regularization induced by memory that AdamW does, providing a theory-based explanation for Lion's better generalization performance recently documented. Empirical evaluations confirm our theoretical findings.},
+pdf={2502.02132v2.pdf},
+url={https://openreview.net/forum?id=2qd4lpXz7u},
+html={https://openreview.net/forum?id=2qd4lpXz7u},
+bibtex_show={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{cattaneo2025uniformestimation,
+  title={Uniform Estimation and Inference for Nonparametric Partitioning-Based M-Estimators},
+  author={Cattaneo, Matias D. and Feng, Yingjie and Shigida, Boris},
+  journal={Under revision: Annals of Statistics},
+  year={2025},
+  Selected={true},
+  abbr={arxiv},
+  abstract = {This paper presents uniform estimation and inference theory for a large class of nonparametric partitioning-based M-estimators. The main theoretical results include:
+  (i) uniform consistency for convex and non-convex objective functions;
+  (ii) rate-optimal uniform Bahadur representations;
+  (iii) rate-optimal uniform (and mean square) convergence rates;
+  (iv) valid strong approximations and feasible uniform inference methods; and
+  (v) extensions to functional transformations of underlying estimators.
+  Uniformity is established over both the evaluation point of the nonparametric functional parameter and a Euclidean parameter indexing the class of loss functions. The results also account explicitly for the smoothness degree of the loss function (if any), and allow for a possibly non-identity (inverse) link function. We illustrate the theoretical and methodological results in four examples: quantile regression, distribution regression, \(L_p\)-regression, and Logistic regression. Many other possibly non-smooth, nonlinear, generalized, robust M-estimation settings are covered by our results. We provide detailed comparisons with the existing literature and demonstrate substantive improvements: we achieve the best (in some cases optimal) known results under improved (in some cases minimal) requirements in terms of regularity conditions and side rate restrictions. The supplemental appendix reports complementary technical results that may be of independent interest, including a novel uniform strong approximation result based on Yurinskii's coupling.},
+  pdf={2409.05715v2.pdf},
+  url={https://arxiv.org/abs/2409.05715},
+  html={https://arxiv.org/abs/2409.05715},
+  bibtex_show={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{
+cattaneo2024onimplicitbias,
+title={On the Implicit Bias of Adam},
+author={Cattaneo, Matias D. and Klusowski, Jason M. and Shigida, Boris},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+Selected={true},
+abbr={icml},
+abstract = {In previous literature, backward error analysis was used to find ordinary differential equations (ODEs) approximating the gradient descent trajectory. It was found that finite step sizes implicitly regularize solutions because terms appearing in the ODEs penalize the two-norm of the loss gradients. We prove that the existence of similar implicit regularization in RMSProp and Adam depends on their hyperparameters and the training stage, but with a different ``norm'' involved: the corresponding ODE terms either penalize the (perturbed) one-norm of the loss gradients or, conversely, impede its reduction (the latter case being typical). We also conduct numerical experiments and discuss how the proven facts can influence generalization.},
+pdf={2309.00079v4.pdf},
+url={https://openreview.net/forum?id=y8YovS0lOg},
+html={https://openreview.net/forum?id=y8YovS0lOg},
+bibtex_show={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{bulinsk2021discretetime,
+title={Discrete-time model of company capital dynamics with investment of a certain part of surplus in a non-risky asset for a fixed period},
+author={Bulinskaya, Ekaterina V. and Shigida, Boris},
+journal={Methodology and Computing in Applied Probability},
+year={2021},
+Selected={true},
+abbr={mcap},
+abstract={A periodic-review insurance model is studied under the following assumptions. One-period insurance claims form a sequence of independent identically distributed nonnegative random variables with a finite mean. At the beginning of each period a quota δ of the company surplus is invested in a non-risky asset for m periods. Theoretical expressions for finite-time and ultimate ruin probabilities, in terms of multiple integrals, are presented and applied to the particular case where claims are exponential. Dividend problems are also considered. Numerical results obtained by virtue of simulation are provided and other algorithmic approaches are discussed. Sensitivity analysis of ruin probability is carried out for the case of exponential claims.},
+url={https://link.springer.com/article/10.1007/s11009-020-09843-5},
+html={https://link.springer.com/article/10.1007/s11009-020-09843-5},
+bibtex_show={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{bulinsk2019sensitivity,
+title={Sensitivity Analysis of Some Applied Probability Models},
+author={Bulinskaya, Ekaterina V. and Shigida, Boris},
+journal={English version: Journal of Mathematical Sciences},
+year={2019},
+Selected={true},
+abbr={jms},
+abstract={During the last two decades, new models were developed in actuarial sciences. Different notions of insurance company ruin (bankruptcy) and other objective functions evaluating the company performance were introduced. Several types of decision (such as dividend payment, reinsurance, investment) are used for optimization of company functioning. Therefore, it is necessary to be sure that the model under consideration is stable with respect to parameter fluctuation and perturbation of underlying stochastic processes. The aim of this paper is the description of methods for investigation of these problems and presentation of recent results concerning some insurance models. Numerical results are also included.},
+url={https://link.springer.com/article/10.1007/s10958-021-05318-1},
+html={https://link.springer.com/article/10.1007/s10958-021-05318-1},
+bibtex_show={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{bulinsk2019modelingandasymp,
+title={Modeling and asymptotic analysis of insurance company performance},
+author={Bulinskaya, Ekaterina V. and Shigida, Boris},
+journal={Communications in Statistics Part B: Simulation and Computation},
+year={2019},
+Selected={true},
+abs={We consider a classical Cramér-Lundberg model with dividends. It is additionally supposed that the claim amounts have exponential distribution. Moreover, we are interested in a barrier dividend strategy with Parisian implementation delay. That means, the payment is made only if the company surplus stays above the barrier at least during time interval of length h. The mean expected discounted dividends paid before Parisian ruin are chosen as objective function. Optimization is carried out. The results are compared with those obtained previously by the authors for the no-delay case. Statistical estimation, stability problems and simulation are tackled as well.},
+abbr={commstat},
+abstract={We consider a classical Cramér-Lundberg model with dividends. It is additionally supposed that the claim amounts have exponential distribution. Moreover, we are interested in a barrier dividend strategy with Parisian implementation delay. That means, the payment is made only if the company surplus stays above the barrier at least during time interval of length h. The mean expected discounted dividends paid before Parisian ruin are chosen as objective function. Optimization is carried out. The results are compared with those obtained previously by the authors for the no-delay case. Statistical estimation, stability problems and simulation are tackled as well.},
+pdf={modeling_and_asymptotic_analysis_of_insurance_company_performance.pdf},
+url={https://www.tandfonline.com/doi/abs/10.1080/03610918.2019.1612911},
+html={https://www.tandfonline.com/doi/abs/10.1080/03610918.2019.1612911},
+bibtex_show={true}
 }
