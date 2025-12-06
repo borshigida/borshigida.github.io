@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at [Princeton ORFE](https://orfe.princeton.edu/) working on empirical and theoretical deep learning and mathematical statistics. I am privileged to be advised by [Matias D. Cattaneo](https://cattaneo.princeton.edu/) and [Boris Hanin](https://boris-hanin.github.io/). Prior to Princeton,
+I am a PhD student at [Princeton ORFE](https://orfe.princeton.edu/) working on theoretical and empirical deep learning and mathematical statistics. I am privileged to be advised by [Matias D. Cattaneo](https://cattaneo.princeton.edu/) and [Boris Hanin](https://boris-hanin.github.io/). Prior to Princeton,
 I studied mathematics (specializing in probability theory) at Moscow State University in Moscow where I grew up, and worked part-time as a software engineer at Yandex (Russian search company).
 I have enjoyed both writing code / keeping track of experiments and proving theorems.
