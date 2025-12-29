@@ -38,3 +38,15 @@ sometimes appreciating Vladimir Arnold's exaggerative [dictum](https://en.wikipe
 
 I currently consider my values aligned with general (!) philosophical [principles](https://static1.squarespace.com/static/5506078de4b02d88372eee4e/t/5f36ae8fd76ee3582c25475d/1597419152486/The_Definition_of_Effective_Altruism.pdf) of effective altruism (practical details are up for debate).
 In particular, I aspire to contribute to research that has a positive long-term impact, to the best of my estimation and ability.
+
+If you are interested in jokes,
+please skip this paragraph and refer to accomplishments listed in my
+[CV](assets/pdf/cv.pdf).
+In my spare time, I enjoy making up random hobbies no one would check I actually have.
+This includes hiking, cycling, swimming, traveling the world and meeting great people.
+Regarding non-human animals, I endorse dogs (excluding very small angry dogs)
+but offer no comment about cats or rodents (including very small angry dogs).
+Just kidding.
+
+Please contact me by email [bs1624@princeton.edu](mailto:bs1624@princeton.edu)
+or [borshigida@gmail.com](mailto:borshigida@gmail.com) with any questions!
