@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2025-12-10'
+  last_updated: '2025-12-31'
 papers:
   KImeZo8AAAAJ:2osOgNQ5qMEC:
     citations: 5
     title: Discrete-time model of company capital dynamics with investment of a certain part of surplus in a non-risky asset for a fixed period
     year: '2021'
   KImeZo8AAAAJ:IjCSPb-OGe4C:
-    citations: 1
+    citations: 2
     title: Uniform Estimation and Inference for Nonparametric Partitioning-Based M-Estimators
     year: '2024'
   KImeZo8AAAAJ:Tyk-4Ss8FVUC:
@@ -14,7 +14,7 @@ papers:
     title: How Memory in Optimization Algorithms Implicitly Modifies the Loss
     year: '2025'
   KImeZo8AAAAJ:UeHWp8X0CEIC:
-    citations: 31
+    citations: 32
     title: On the Implicit Bias of Adam
     year: '2023'
   KImeZo8AAAAJ:W7OEmFMy1HYC:
