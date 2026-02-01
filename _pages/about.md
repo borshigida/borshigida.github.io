@@ -32,18 +32,14 @@ I am a PhD student at [Princeton ORFE](https://orfe.princeton.edu/) working on t
 Prior to Princeton,
 I studied mathematics (specializing in probability theory) at Moscow State University in Moscow where I grew up, and worked part-time as a software engineer at Yandex.
 I have enjoyed both coding up experiments and proving theorems.
-On that note, I'm drawn to the common ground between empirical science and mathematics,
-sometimes appreciating Vladimir Arnold's exaggerative [dictum](https://en.wikipedia.org/wiki/Relationship_between_mathematics_and_physics#Mathematics_is_physics) that mathematics is the part of physics where experiments are cheap.
+On that note, I admire the scientific method, and I have tried to treat mathematics as a particularly detail-oriented way to develop theories, following Vladimir Arnold's [dictum](https://www.maia.ub.es/~vieiro/fitxers/teaching-math-arnold.pdf) that mathematics is a part of physics.
 
-I consider my values aligned with general (!) philosophical [principles](https://static1.squarespace.com/static/5506078de4b02d88372eee4e/t/5f36ae8fd76ee3582c25475d/1597419152486/The_Definition_of_Effective_Altruism.pdf) of effective altruism (practical details are up for debate).
-In particular, I aspire to contribute to research that has a positive long-term impact, to the best of my estimation and ability.
+I consider my values aligned with the general [principles](https://static1.squarespace.com/static/5506078de4b02d88372eee4e/t/5f36ae8fd76ee3582c25475d/1597419152486/The_Definition_of_Effective_Altruism.pdf) of effective altruism (thinking independently about practical details).
+In particular, I aspire to contribute to work that has a positive (perhaps long-term) impact.
 
-If you are interested in jokes,
-please consider skipping this paragraph and referring to accomplishments listed in my
-[CV](assets/pdf/cv.pdf).
 In my spare time, I enjoy making up hobbies no one would check I actually have.
 This includes hiking, cycling, swimming, traveling the world and meeting great people.
-Regarding non-human animals, I endorse dogs (excluding very small angry dogs)
+Regarding pets, I endorse dogs (excluding very small angry dogs)
 but offer no comment about cats or rodents (including very small angry dogs).
 Just kidding.
 
