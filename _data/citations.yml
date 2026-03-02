@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-04'
+  last_updated: '2026-03-02'
 papers:
   KImeZo8AAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -10,7 +10,7 @@ papers:
     title: Uniform Estimation and Inference for Nonparametric Partitioning-Based M-Estimators
     year: '2024'
   KImeZo8AAAAJ:Tyk-4Ss8FVUC:
-    citations: 3
+    citations: 4
     title: How Memory in Optimization Algorithms Implicitly Modifies the Loss
     year: '2025'
   KImeZo8AAAAJ:UeHWp8X0CEIC:
@@ -18,9 +18,13 @@ papers:
     title: On the Implicit Bias of Adam
     year: '2023'
   KImeZo8AAAAJ:W7OEmFMy1HYC:
-    citations: 0
+    citations: 2
     title: 'Modified Loss of Momentum Gradient Descent: Fine-Grained Analysis'
     year: '2025'
+  KImeZo8AAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: The Effect of Mini-Batch Noise on the Implicit Bias of Adam
+    year: '2026'
   KImeZo8AAAAJ:d1gkVwhDpl0C:
     citations: 3
     title: Sensitivity Analysis of Some Applied Probability Models
