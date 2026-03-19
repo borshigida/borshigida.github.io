@@ -32,11 +32,9 @@ I am a PhD student at [Princeton ORFE](https://orfe.princeton.edu/) working on t
 Prior to Princeton,
 I studied mathematics (specializing in probability theory) at Moscow State University in Moscow where I grew up, and worked part-time as a software engineer at Yandex.
 I have enjoyed both coding up experiments and proving theorems.
-On that note, I admire the scientific method, and I have tried to treat mathematics as a particularly detail-oriented way to develop theories, following Vladimir Arnold's [dictum](https://www.maia.ub.es/~vieiro/fitxers/teaching-math-arnold.pdf) that mathematics is a part of physics.
+On that note, I admire the scientific method, and I have tried to treat mathematics as a particularly detail-oriented way to develop theories, following Vladimir Arnold's dictum that mathematics is a part of physics.
 
-I consider my values aligned with the general [principles](https://static1.squarespace.com/static/5506078de4b02d88372eee4e/t/5f36ae8fd76ee3582c25475d/1597419152486/The_Definition_of_Effective_Altruism.pdf) of effective altruism (thinking independently about practical details).
-In particular, I aspire to contribute to work that has a positive (perhaps long-term) impact.
-
+If you are interested in jokes, please refer to my CV for the list of accomplishments.
 In my spare time, I enjoy making up hobbies no one would check I actually have.
 This includes hiking, cycling, swimming, traveling the world and meeting great people.
 Regarding pets, I endorse dogs (excluding very small angry dogs)
