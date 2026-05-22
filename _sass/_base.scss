@@ -717,6 +717,7 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+  counter-reset: pub-counter;
 
   h1 {
     color: var(--global-theme-color);
@@ -749,32 +750,43 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      counter-increment: pub-counter;
 
       .preview {
       }
 
       .abbr {
         margin-bottom: 0.5rem;
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none;
+        padding-right: 6px;
 
         abbr {
-          display: inline-block;
-          background-color: var(--global-theme-color);
+          display: none;
+        }
+
+        &::before {
+          content: "[" counter(pub-counter) "]";
+          display: block;
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
-
-          a {
-            color: white;
-
-            &:hover {
-              text-decoration: none;
-            }
-          }
+          font-family: var(--global-code-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace);
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: var(--global-theme-color);
+          text-align: left;
+          white-space: nowrap;
         }
 
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
+      }
+
+      > .row > [id] {
+        flex: 1 1 0;
+        max-width: none;
       }
 
       .title {
