@@ -3,6 +3,51 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{shigida2026learningratetransfernormalized,
+  title={Learning Rate Transfer in Normalized Transformers},
+  author={Boris Shigida and Boris Hanin and Andrey Gromov},
+  journal={arXiv preprint arxiv:2604.27077},
+  year={2026},
+  Selected={true},
+  abbr={arxiv},
+  abstract = {The Normalized Transformer, or nGPT (Loshchilov et al., 2025) achieves impressive training speedups and does not require weight decay or learning rate warmup. However, despite having hyperparameters
+  that explicitly scale with model size, we observe that nGPT does not exhibit learning rate transfer across model dimension and token horizon. To rectify this, we combine numerical experiments with a principled use of alignment exponents (Everett et al., 2024) to revisit and modify the \(\mu\)P approach to
+  hyperparameter transfer (Yang and Hu, 2021). The result is a novel nGPT parameterization we call \(\nu\)GPT. Through extensive empirical validation, we find \(\nu\)GPT exhibits learning rate transfer across width, depth, and token horizon.},
+  pdf={2604.27077v2.pdf},
+  url={https://arxiv.org/abs/2604.27077},
+  html={https://arxiv.org/abs/2604.27077},
+  bibtex_show={true}
+}
+
+@article{dong2026independentsamplingoutperformsagentic,
+  title={When Independent Sampling Outperforms Agentic Reasoning},
+  author={Yihe Dong and Boris Shigida},
+  journal={arXiv preprint arxiv:2605.08478},
+  year={2026},
+  Selected={true},
+  abbr={arxiv},
+  abstract = {We study how to allocate inference-time compute for competitive programming under fixed budgets. Evaluating 216 Codeforces problems across Divisions 1-3, we compare agent-based reasoning with repeated independent sampling (k-shot) as a function of both cost and number of model calls. Across models and difficulty levels, k-shot consistently achieves a better accuracy-cost and accuracy-query tradeoff. This gap persists despite prompt caching in agent frameworks, indicating lower per-call effectiveness. Our results show that, for self-contained algorithmic tasks, independent exploration can outperform deeper agentic reasoning under realistic resource constraints. We also provide a budget-allocation analysis when the inference budget is fixed, and prove that a cost-optimal solver minimizes the principled metric log failure likelihood per dollar.},
+  pdf={2605.08478v1.pdf},
+  url={https://arxiv.org/abs/2605.08478},
+  html={https://arxiv.org/abs/2605.08478},
+  bibtex_show={true}
+}
+
+@article{cattaneo2026effectminibatchnoiseimplicit,
+  title={The Effect of Mini-Batch Noise on the Implicit Bias of Adam},
+  author={Matias D. Cattaneo and Boris Shigida},
+  journal={arXiv preprint arxiv:2602.01642},
+  year={2026},
+  Selected={true},
+  abbr={arxiv},
+  abstract = {Adam and AdamW are standard optimizers in deep learning, but the choice of their momentum hyperparameters \((\beta_1,\beta_2)\) is often not principled. We study how the interaction of these hyperparameters with batch size implicitly affects loss sharpness, relevant both to overfitting concerns in multi-epoch training and to post-training performance concerns after single-epoch pretraining. Our analysis predicts a batch-size-dependent reversal in the preferred choice of Adam's betas. In the low-noise, large-batch regime, increasing \(\beta_2\) strengthens the implicit anti-regularization induced by memory, suggesting that choosing \(\beta_1\) close to \(\beta_2\) should improve generalization and model sensitivity. In contrast, in the high-noise, small-batch regime, mini-batch noise reverses this monotonicity: larger \(\beta_2\) can compensate for the anti-regularizing memory term, making the default choice \(\beta_1 \ll \beta_2\) theoretically well motivated. The predicted transition occurs at a batch-size scale controlled by the simple noise scale, closely related to the critical batch size. Experiments both in an overfitting regime and with single-epoch pretraining support these
+  qualitative predictions.},
+  pdf={2602.01642v2.pdf},
+  url={https://arxiv.org/abs/2602.01642},
+  html={https://arxiv.org/abs/2602.01642},
+  bibtex_show={true}
+}
+
 @article{cattaneo2025modifiedlossmomentum,
   title={Modified Loss of Momentum Gradient Descent: Fine-Grained Analysis},
   author={Cattaneo, Matias D. and Shigida, Boris},
@@ -15,21 +60,6 @@
   url={https://arxiv.org/abs/2509.08483},
   html={https://arxiv.org/abs/2509.08483},
   bibtex_show={true}
-}
-
-@inproceedings{
-cattaneo2025howmemory,
-title={How Memory in Optimization Algorithms Implicitly Modifies the Loss},
-author={Cattaneo, Matias D. and Shigida, Boris},
-booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
-year={2025},
-Selected={true},
-abbr={neurips},
-abstract = {In modern optimization methods used in deep learning, each update depends on the history of previous iterations, often referred to as <i>memory</i>, and this dependence decays fast as the iterates go further into the past. For example, gradient descent with momentum has exponentially decaying memory through exponentially averaged past gradients. We introduce a general technique for identifying a memoryless algorithm that approximates an optimization algorithm with memory. It is obtained by replacing all past iterates in the update by the current one, and then adding a correction term arising from memory (also a function of the current iterate). This correction term can be interpreted as a perturbation of the loss, and the nature of this perturbation can inform how memory implicitly (anti-)regularizes the optimization dynamics. As an application of our theory, we find that Lion does not have the kind of implicit anti-regularization induced by memory that AdamW does, providing a theory-based explanation for Lion's better generalization performance recently documented. Empirical evaluations confirm our theoretical findings.},
-pdf={2502.02132v2.pdf},
-url={https://openreview.net/forum?id=2qd4lpXz7u},
-html={https://openreview.net/forum?id=2qd4lpXz7u},
-bibtex_show={true}
 }
 
 @article{cattaneo2025uniformestimation,
@@ -50,6 +80,21 @@ bibtex_show={true}
   url={https://arxiv.org/abs/2409.05715},
   html={https://arxiv.org/abs/2409.05715},
   bibtex_show={true}
+}
+
+@inproceedings{
+cattaneo2025howmemory,
+title={How Memory in Optimization Algorithms Implicitly Modifies the Loss},
+author={Cattaneo, Matias D. and Shigida, Boris},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+Selected={true},
+abbr={neurips},
+abstract = {In modern optimization methods used in deep learning, each update depends on the history of previous iterations, often referred to as <i>memory</i>, and this dependence decays fast as the iterates go further into the past. For example, gradient descent with momentum has exponentially decaying memory through exponentially averaged past gradients. We introduce a general technique for identifying a memoryless algorithm that approximates an optimization algorithm with memory. It is obtained by replacing all past iterates in the update by the current one, and then adding a correction term arising from memory (also a function of the current iterate). This correction term can be interpreted as a perturbation of the loss, and the nature of this perturbation can inform how memory implicitly (anti-)regularizes the optimization dynamics. As an application of our theory, we find that Lion does not have the kind of implicit anti-regularization induced by memory that AdamW does, providing a theory-based explanation for Lion's better generalization performance recently documented. Empirical evaluations confirm our theoretical findings.},
+pdf={2502.02132v2.pdf},
+url={https://openreview.net/forum?id=2qd4lpXz7u},
+html={https://openreview.net/forum?id=2qd4lpXz7u},
+bibtex_show={true}
 }
 
 @inproceedings{
