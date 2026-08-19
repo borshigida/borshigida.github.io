@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-08-19'
 papers:
   KImeZo8AAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -10,11 +10,11 @@ papers:
     title: Uniform Estimation and Inference for Nonparametric Partitioning-Based M-Estimators
     year: '2024'
   KImeZo8AAAAJ:Tyk-4Ss8FVUC:
-    citations: 7
+    citations: 8
     title: How Memory in Optimization Algorithms Implicitly Modifies the Loss
     year: '2025'
   KImeZo8AAAAJ:UeHWp8X0CEIC:
-    citations: 47
+    citations: 49
     title: On the Implicit Bias of Adam
     year: '2023'
   KImeZo8AAAAJ:W7OEmFMy1HYC:
@@ -26,7 +26,7 @@ papers:
     title: Learning Rate Transfer in Normalized Transformers
     year: '2026'
   KImeZo8AAAAJ:YsMSGLbcyi4C:
-    citations: 5
+    citations: 6
     title: The Effect of Mini-Batch Noise on the Implicit Bias of Adam
     year: '2026'
   KImeZo8AAAAJ:d1gkVwhDpl0C:
